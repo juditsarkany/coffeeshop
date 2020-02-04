@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Title from '../Globals/Title';
 
+// Just a comment here, and there...
 export default function Info() {
 	return (
 		<section className="py-5">
