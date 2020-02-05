@@ -61,3 +61,14 @@ h6 {
 footer {
 	background: var(--mainBrown);
 }
+
+@media (min-width: 680px) {
+	.description {
+		max-width: 60%;
+	}
+}
+
+.menu,
+.contact {
+	background: var(--mainGrey);
+}
