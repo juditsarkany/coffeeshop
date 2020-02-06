@@ -11,7 +11,7 @@ import Contact from '../components/Home/Contact';
 const IndexPage = ({ data }) => (
 	<Layout>
 		<SEO title="Home" />
-		<BackgroundSection img={data.img.childImageSharp.fluid} title="regular joe's" styleClass="default-background" />
+		<BackgroundSection img={data.img.childImageSharp.fluid} title="Cafe Loco" styleClass="default-background" />
 		<Info />
 		<Menu items={data.menu} />
 		<Products />

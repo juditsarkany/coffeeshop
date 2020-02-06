@@ -71,10 +71,12 @@ export default class Menu extends Component {
 											<div className="d-flex 
                                             justify-content-between">
 												<h6 className="mb-0">
-													<small>{node.title}</small>
+													<small className="text-capitalize">{node.title}</small>
 												</h6>
 												<h6 className="mb-0 text-yellow">
-													<small>${node.price}</small>
+													<strong>
+														<small>${node.price}</small>
+													</strong>
 												</h6>
 											</div>
 											<p className="text-muted description">

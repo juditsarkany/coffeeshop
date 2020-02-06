@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
 :root {
 	--mainBrown: #2d1e1f;
-	--mainYellow: rgb(255, 158, 9);
-	--mainGrey: #ece8dc;
+	--mainBlue: rgb(2, 161, 221);
+	--mainGrey: #f3f3f5;
 	--mainWhite: #fff;
 	--mainDark: #222;
 }
@@ -9,7 +11,7 @@
 body {
 	background: var(--mainWhite);
 	color: var(--mainDark);
-	font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+	font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif !important;
 }
 
 h1,
@@ -18,17 +20,21 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: 'Courier New', Courier, monospace !important;
+	font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif !important;
 	letter-spacing: 0.25rem !important;
 }
 
 .text-yellow {
-	color: var(--mainYellow);
+	color: var(--mainBlue);
+}
+
+.text-black {
+	color: var(--mainDark) !important;
 }
 
 .cart-icon {
 	cursor: pointer;
-	color: var(--mainYellow);
+	color: var(--mainBlue);
 	font-size: 2rem;
 }
 
@@ -38,7 +44,7 @@ h6 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: linear-gradient(rgba(255, 158, 9, 0.5), rgba(255, 158, 9, 0.5));
+	background: rgba(2, 161, 221, 0.8);
 	background-position: center;
 	background-size: cover;
 	opacity: 1 !important;
@@ -49,13 +55,13 @@ h6 {
 }
 
 .btn-yellow {
-	color: var(--mainYellow);
-	border-color: var(--mainYellow);
+	color: var(--mainBlue);
+	border-color: var(--mainBlue);
 }
 
 .btn-yellow:hover {
-	background: var(--mainYellow);
-	color: var(--mainBrown) !important;
+	background: var(--mainBlue);
+	color: var(--mainWhite) !important;
 }
 
 footer {
